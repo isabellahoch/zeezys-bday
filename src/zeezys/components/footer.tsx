@@ -109,6 +109,10 @@ export default function Footer({
                 </a>
               ))}
             </div>
+
+            <p className="text-gray-400">
+              This project is proudly open-source. To contribute, please visit the <a href="https://github.com/isabellahoch/zeezys-bday" className="text-pink-500 hover:text-pink-600">GitHub repository</a>.
+            </p>
           </div>
 
           {/* Quick Links */}
