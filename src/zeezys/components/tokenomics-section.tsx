@@ -2,8 +2,8 @@
 
 import React from "react";
 import { cn } from "@/lib/utils";
-import CyberCard from "@/polymet/components/cyber-card";
-import GlowingText from "@/polymet/components/glowing-text";
+import CyberCard from "@/zeezys/components/cyber-card";
+import GlowingText from "@/zeezys/components/glowing-text";
 import { ChartContainer } from "@/components/ui/chart";
 import { Cell, Pie, PieChart } from "recharts";
 import { ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";

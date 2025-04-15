@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainLayout from "@/polymet/layouts/main-layout";
-import LandingPage from "@/polymet/pages/landing-page";
+import MainLayout from "@/zeezys/layouts/main-layout";
+import LandingPage from "@/zeezys/pages/landing-page";
 
 export default function MainPrototype() {
   return (

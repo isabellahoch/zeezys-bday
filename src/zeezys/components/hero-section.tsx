@@ -2,9 +2,9 @@
 
 import React, { useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import GlowingText from "@/polymet/components/glowing-text";
-import NeonButton from "@/polymet/components/neon-button";
-import AnimatedBackground from "@/polymet/components/animated-background";
+import GlowingText from "@/zeezys/components/glowing-text";
+import NeonButton from "@/zeezys/components/neon-button";
+import AnimatedBackground from "@/zeezys/components/animated-background";
 
 interface HeroSectionProps {
   className?: string;

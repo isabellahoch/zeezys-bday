@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import CyberCard from "@/polymet/components/cyber-card";
+import CyberCard from "@/zeezys/components/cyber-card";
 
 interface NFT {
   id: string;

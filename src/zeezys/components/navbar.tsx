@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import NeonButton from "@/polymet/components/neon-button";
+import NeonButton from "@/zeezys/components/neon-button";
 import { MenuIcon, XIcon } from "lucide-react";
 
 import zLogo from "@/assets/z_coin_logo.png";

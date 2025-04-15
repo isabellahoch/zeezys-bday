@@ -2,11 +2,11 @@
 
 import React from "react";
 import { cn } from "@/lib/utils";
-import GlowingText from "@/polymet/components/glowing-text";
-import CyberCard from "@/polymet/components/cyber-card";
-import NFTShowcase from "@/polymet/components/nft-showcase";
-import CountdownTimer from "@/polymet/components/countdown-timer";
-import NeonButton from "@/polymet/components/neon-button";
+import GlowingText from "@/zeezys/components/glowing-text";
+import CyberCard from "@/zeezys/components/cyber-card";
+import NFTShowcase from "@/zeezys/components/nft-showcase";
+import CountdownTimer from "@/zeezys/components/countdown-timer";
+import NeonButton from "@/zeezys/components/neon-button";
 
 import zNFTPlaceholder from "@/assets/z_question.png";
 

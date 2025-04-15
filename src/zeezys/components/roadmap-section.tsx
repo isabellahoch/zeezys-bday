@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import GlowingText from "@/polymet/components/glowing-text";
-import CyberCard from "@/polymet/components/cyber-card";
+import GlowingText from "@/zeezys/components/glowing-text";
+import CyberCard from "@/zeezys/components/cyber-card";
 
 interface RoadmapItem {
   phase: string;
