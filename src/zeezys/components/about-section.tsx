@@ -161,8 +161,8 @@ export default function AboutSection({ className }: AboutSectionProps) {
               <img
                 src={zGrindset}
                 alt="$ZEEZYS Cryptocurrency"
-                  className="w-64 h-full object-cover rounded-md mb-4"
-                />
+                className="w-64 h-full object-cover rounded-md mb-4 hidden md:block"
+              />
               </div>
             </CyberCard>
             <CyberCard

@@ -22,7 +22,7 @@ export default function Footer({
   const defaultSocialLinks: SocialLink[] = [
     {
       name: "Twitter",
-      url: "#",
+      url: "https://www.instagram.com/eattiliyeet/",
       icon: (
         <svg
           className="w-5 h-5 fill-current"
@@ -35,7 +35,7 @@ export default function Footer({
     },
     {
       name: "Discord",
-      url: "#",
+      url: "https://www.instagram.com/eattiliyeet/",
       icon: (
         <svg
           className="w-5 h-5 fill-current"
@@ -48,7 +48,7 @@ export default function Footer({
     },
     {
       name: "Telegram",
-      url: "#",
+      url: "https://www.instagram.com/eattiliyeet/",
       icon: (
         <svg
           className="w-5 h-5 fill-current"
@@ -61,7 +61,7 @@ export default function Footer({
     },
     {
       name: "Medium",
-      url: "#",
+      url: "https://www.instagram.com/eattiliyeet/",
       icon: (
         <svg
           className="w-5 h-5 fill-current"
