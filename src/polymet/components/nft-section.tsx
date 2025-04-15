@@ -8,20 +8,21 @@ import NFTShowcase from "@/polymet/components/nft-showcase";
 import CountdownTimer from "@/polymet/components/countdown-timer";
 import NeonButton from "@/polymet/components/neon-button";
 
+import zNFTPlaceholder from "@/assets/z_question.png";
+
 interface NFTSectionProps {
   className?: string;
 }
 
 export default function NFTSection({ className }: NFTSectionProps) {
-  // Set target date to 30 days from now
-  const dropDate = new Date();
-  dropDate.setDate(dropDate.getDate() + 30);
+  // Set target date to a week from her birthday
+  const dropDate = new Date('2025-04-22');
 
   const mockNFTs = [
     {
       id: "1",
       name: "Cyber Punk Zeezys #001",
-      image: "https://picsum.photos/seed/nft1/800/800",
+      image: zNFTPlaceholder,
       rarity: "mythic" as const,
       description:
         "The rarest NFT in the collection. This legendary piece features futuristic cyberpunk aesthetics with neon pink accents and holographic elements.",
@@ -29,7 +30,7 @@ export default function NFTSection({ className }: NFTSectionProps) {
     {
       id: "2",
       name: "Neon Rider Zeezys #042",
-      image: "https://picsum.photos/seed/nft2/800/800",
+      image: zNFTPlaceholder,
       rarity: "legendary" as const,
       description:
         "A legendary NFT featuring a sleek neon design with animated elements. Owners get exclusive access to special community events.",
@@ -37,7 +38,7 @@ export default function NFTSection({ className }: NFTSectionProps) {
     {
       id: "3",
       name: "Digital Dreamer Zeezys #107",
-      image: "https://picsum.photos/seed/nft3/800/800",
+      image: zNFTPlaceholder,
       rarity: "rare" as const,
       description:
         "A rare NFT with vibrant colors and digital artifacts. This piece represents the fusion of art and technology in the digital age.",
@@ -45,7 +46,7 @@ export default function NFTSection({ className }: NFTSectionProps) {
     {
       id: "4",
       name: "Glitch Art Zeezys #256",
-      image: "https://picsum.photos/seed/nft4/800/800",
+      image: zNFTPlaceholder,
       rarity: "uncommon" as const,
       description:
         "An uncommon NFT featuring glitch art aesthetics. The distorted visuals create a unique visual experience that changes with each viewing.",
@@ -53,7 +54,7 @@ export default function NFTSection({ className }: NFTSectionProps) {
     {
       id: "5",
       name: "Virtual Reality Zeezys #389",
-      image: "https://picsum.photos/seed/nft5/800/800",
+      image: zNFTPlaceholder,
       rarity: "common" as const,
       description:
         "A common NFT inspired by virtual reality landscapes. Despite its common rarity, it features intricate details and vibrant colors.",
@@ -192,7 +193,9 @@ export default function NFTSection({ className }: NFTSectionProps) {
               />
 
               <div className="mt-8 w-full">
-                <NeonButton glowColor="pink" className="w-full">
+                <NeonButton glowColor="pink" className="w-full" onClick={() => {
+                  window.open("https://dartreview.com/contact-us/#mc4wp_form_widget-8", "_blank")
+                }}>
                   JOIN WHITELIST
                 </NeonButton>
               </div>

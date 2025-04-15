@@ -22,8 +22,8 @@ export default function HeroSection({
   title = "$ZEEZYS",
   subtitle = "THE FUTURE OF CRYPTO",
   description = "A revolutionary cryptocurrency with exclusive NFT drops and futuristic vision. Join the cyberpunk financial revolution.",
-  ctaText = "JOIN PRESALE",
-  ctaLink = "#presale",
+  ctaText = "TRADE NOW",
+  ctaLink = "https://pump.fun/coin/D7wYsczJEPfVEdbVTRFpED1CkGxPrDD3gATfGPx6pump",
   secondaryCtaText = "LEARN MORE",
   secondaryCtaLink = "#about",
 }: HeroSectionProps) {
@@ -137,7 +137,7 @@ export default function HeroSection({
               { label: "TOTAL SUPPLY", value: "1,000,000,000" },
               { label: "PRESALE PRICE", value: "$0.0001" },
               { label: "NFT COLLECTION", value: "10,000" },
-              { label: "LAUNCH DATE", value: "COMING SOON" },
+              { label: "LAUNCH DATE", value: "APRIL 15" },
             ].map((stat, index) => (
               <div
                 key={index}

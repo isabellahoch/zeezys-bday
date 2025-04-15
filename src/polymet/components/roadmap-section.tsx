@@ -35,7 +35,7 @@ export default function RoadmapSection({ className }: RoadmapSectionProps) {
       ],
 
       status: "completed",
-      date: "Q3 2023",
+      date: "Q1 2025",
     },
     {
       phase: "2",
@@ -50,7 +50,7 @@ export default function RoadmapSection({ className }: RoadmapSectionProps) {
       ],
 
       status: "in-progress",
-      date: "Q4 2023",
+      date: "Q2 2025",
     },
     {
       phase: "3",
@@ -65,7 +65,7 @@ export default function RoadmapSection({ className }: RoadmapSectionProps) {
       ],
 
       status: "upcoming",
-      date: "Q1 2024",
+      date: "Q3 2025",
     },
     {
       phase: "4",
@@ -80,7 +80,7 @@ export default function RoadmapSection({ className }: RoadmapSectionProps) {
       ],
 
       status: "upcoming",
-      date: "Q2 2024",
+      date: "Q4 2025",
     },
     {
       phase: "5",
@@ -95,7 +95,7 @@ export default function RoadmapSection({ className }: RoadmapSectionProps) {
       ],
 
       status: "upcoming",
-      date: "Q3-Q4 2024",
+      date: "Q1 2026",
     },
   ];
 

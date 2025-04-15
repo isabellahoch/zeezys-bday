@@ -142,7 +142,9 @@ export default function Footer({
                 className="bg-gray-900 text-white px-4 py-2 rounded-l-md border border-gray-700 focus:outline-none focus:border-pink-500 w-full"
               />
 
-              <NeonButton glowColor="pink" className="rounded-l-none">
+              <NeonButton glowColor="pink" className="rounded-l-none" onClick={() => {
+                window.open("https://dartreview.com/contact-us/#mc4wp_form_widget-8", "_blank")
+              }}>
                 SUBSCRIBE
               </NeonButton>
             </div>

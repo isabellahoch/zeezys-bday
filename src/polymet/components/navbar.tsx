@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import NeonButton from "@/polymet/components/neon-button";
 import { MenuIcon, XIcon } from "lucide-react";
 
+import zLogo from "@/assets/z_coin_logo.png";
+
 interface NavbarProps {
   className?: string;
   logo?: string;
@@ -13,7 +15,7 @@ interface NavbarProps {
 
 export default function Navbar({
   className,
-  logo = "https://picsum.photos/seed/zeezyslogo/200/200",
+  logo = zLogo,
   logoText = "$ZEEZYS",
 }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -78,7 +80,9 @@ export default function Navbar({
 
           {/* Action Button */}
           <div className="hidden md:block">
-            <NeonButton glowColor="pink" size="sm">
+            <NeonButton glowColor="pink" size="sm" onClick={() => {
+              window.open("https://metamask.io/", "_blank")
+            }}>
               CONNECT WALLET
             </NeonButton>
           </div>
@@ -119,7 +123,7 @@ export default function Navbar({
               ))}
 
               <div className="mt-6">
-                <NeonButton glowColor="pink" className="w-full">
+                <NeonButton glowColor="pink" className="w-full" onClick={() => { window.open("https://metamask.io/", "_blank") }}>
                   CONNECT WALLET
                 </NeonButton>
               </div>

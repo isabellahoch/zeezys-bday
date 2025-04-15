@@ -3,6 +3,9 @@ import { cn } from "@/lib/utils";
 import CyberCard from "@/polymet/components/cyber-card";
 import GlowingText from "@/polymet/components/glowing-text";
 
+import zPoster from "@/assets/z_poster.png";
+import zGrindset from "@/assets/z_grindset.png";
+
 interface AboutSectionProps {
   className?: string;
 }
@@ -143,17 +146,30 @@ export default function AboutSection({ className }: AboutSectionProps) {
           </div>
 
           {/* Right Column - Image and Description */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 justify-center items-center">
             <CyberCard
               glowColor="pink"
               variant="glass"
               className="overflow-hidden"
             >
-              <img
-                src="https://picsum.photos/seed/zeezys-crypto/800/600"
-                alt="$ZEEZYS Cryptocurrency"
-                className="w-full h-64 object-cover rounded-md mb-4"
+              <div className="flex flex-row gap-4">
+                <img
+                  src={zPoster}
+                  alt="$ZEEZYS Cryptocurrency"
+                  className="w-64 h-full object-cover rounded-md mb-4"
               />
+              <img
+                src={zGrindset}
+                alt="$ZEEZYS Cryptocurrency"
+                  className="w-64 h-full object-cover rounded-md mb-4"
+                />
+              </div>
+            </CyberCard>
+            <CyberCard
+              glowColor="pink"
+              variant="glass"
+              className="overflow-hidden"
+            >
 
               <h3 className="text-xl font-bold text-pink-500 mb-2">
                 THE CYBERPUNK FINANCIAL REVOLUTION
@@ -164,36 +180,6 @@ export default function AboutSection({ className }: AboutSectionProps) {
                 decentralized ecosystem where art, technology, and finance
                 converge to empower users worldwide.
               </p>
-            </CyberCard>
-
-            <CyberCard glowColor="purple" variant="outline">
-              <div className="flex flex-col md:flex-row gap-4 items-center">
-                <div className="w-full md:w-1/3">
-                  <div className="aspect-square rounded-full border-4 border-purple-500/50 p-1 relative">
-                    <img
-                      src="https://picsum.photos/seed/zeezys-founder/400/400"
-                      alt="Founder"
-                      className="rounded-full w-full h-full object-cover"
-                    />
-
-                    <div className="absolute inset-0 rounded-full border-2 border-pink-500/30 animate-pulse"></div>
-                  </div>
-                </div>
-                <div className="w-full md:w-2/3">
-                  <h3 className="text-lg font-bold text-purple-400 mb-1">
-                    FROM THE FOUNDER
-                  </h3>
-                  <p className="text-gray-300 italic">
-                    "We're building more than just a token - we're creating a
-                    digital future where creativity and technology unite.
-                    $ZEEZYS represents our vision of what cryptocurrency can
-                    become."
-                  </p>
-                  <p className="text-pink-500 font-bold mt-2">
-                    - Cyber Visionary, Founder
-                  </p>
-                </div>
-              </div>
             </CyberCard>
           </div>
         </div>
